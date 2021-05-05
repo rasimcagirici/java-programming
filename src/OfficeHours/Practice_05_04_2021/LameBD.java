@@ -6,11 +6,8 @@ import java.util.Scanner;
 
 public class LameBD {
     public static String lameDB(String db, String op, String id, String data) {
-
         ArrayList<String> list = new ArrayList<>(Arrays.asList(db.split("#")));
-
         int idNum = Integer.parseInt(id);
-
         switch (op) {
             case "add":
                 if (idNum > list.size()) {
@@ -38,7 +35,6 @@ public class LameBD {
         String listStr = list.toString();
         return listStr.substring(1,listStr.length()-1).replace(", ","#");
     }
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println(lameDB("1etsy#2wooden#3spoon","add","4","aaa"));
