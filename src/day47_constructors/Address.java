@@ -4,8 +4,27 @@ public class Address {
     private String street;
     private String city;
     private String state;
-    private int zipCode;
+    private String zipCode;
     private String country = "USA";
+
+    public Address() {
+        System.out.println("Address constructor");
+        street = "123 unknown st";
+        city = "unknown";
+        state = "unknown";
+        zipCode = "00000";
+    }
+
+    public Address(String street, String city, String state, String zipCode) {
+        //this.street = street;
+        setStreet(street);
+        //this.city = city;
+        setCity(city);
+        //this.state = state;
+        setState(state);
+        //this.zipCode = zipCode;
+        setZipCode(zipCode);
+    }
 
     public void setStreet(String street) {
         this.street = street;
@@ -31,11 +50,11 @@ public class Address {
         return state;
     }
 
-    public void setZipCode(int zipCode) {
+    public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
 
-    public int getZipCode() {
+    public String getZipCode() {
         return zipCode;
     }
 
