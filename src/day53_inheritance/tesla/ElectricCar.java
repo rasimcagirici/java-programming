@@ -7,10 +7,8 @@ public class ElectricCar {
     private double price;
     private int year;
     private int range;
+    public static int count;
 
-    public int getRange() {
-        return range;
-    }
 
     public ElectricCar(String make, String model, double price, int year, int range) {
         setMake(make);
@@ -18,6 +16,11 @@ public class ElectricCar {
         this.price = price;
         this.year = year;
         this.range = range;
+        count++;
+    }
+
+    public int getRange() {
+        return range;
     }
 
     public void setRange(int range) {
@@ -49,7 +52,7 @@ public class ElectricCar {
     }
 
     public void setMake(String make) {
-        if (!make.isEmpty()) {
+        if (make.isEmpty()) {
             System.out.println("ERROR: Make cannot be blank");
         } else {
             this.make = make;
