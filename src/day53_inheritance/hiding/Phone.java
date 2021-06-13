@@ -9,7 +9,7 @@ public class Phone {
 
     public void call() {
         use();
-        System.out.println("and making a phone call on");
+        System.out.println("and making a phone call");
     }
 
 }
