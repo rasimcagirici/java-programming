@@ -7,6 +7,13 @@ public class Instagram extends MobileApp {
     }
 
     @Override
+    protected boolean download() {
+        System.out.println("Download Instagram " + version);
+        super.download();
+        return true;
+    }
+
+    @Override
     public void useTheApp(int minutes) {
 
         System.out.println("Using instagram app features");
