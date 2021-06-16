@@ -10,15 +10,30 @@ public abstract class Student {
 
 class OnlineStudent extends Student {
 
+    @Override
     public void attendClass() {
-        System.out.println("Attending class virtually");
+        System.out.println("Online student is attending the class using Zoom");
+    }
+}
+
+class CampusStudent extends Student {
+
+    @Override
+    public void attendClass() {
+        System.out.println("Campus student is attending the class in person");
     }
 }
 
 class School {
     public static void main(String[] args) {
+
         OnlineStudent onlineStudent = new OnlineStudent();
         onlineStudent.code("Java");
         onlineStudent.attendClass();
+
+        CampusStudent campusStudent = new CampusStudent();
+        campusStudent.code("Javascript");
+        campusStudent.attendClass();
+
     }
 }
