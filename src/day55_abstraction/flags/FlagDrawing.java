@@ -66,5 +66,15 @@ public class FlagDrawing {
         for (int i = 0; i < grid.getHt(); i++) {
             grid.setColor(i, 19, Color.yellow);
         }
+
+        RussianFlag russianFlag = new RussianFlag();
+        russianFlag.draw();
+
+        FrenchFlag frenchFlag = new FrenchFlag();
+        frenchFlag.draw();
+
+        UkraineFlag ukraineFlag = new UkraineFlag();
+        ukraineFlag.draw();
+
     }
 }
