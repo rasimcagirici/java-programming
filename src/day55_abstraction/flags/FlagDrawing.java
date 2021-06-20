@@ -6,65 +6,35 @@ public class FlagDrawing {
     public static void main(String[] args) {
         Grid grid = new Grid();
         grid.setColor(0, 0, Color.blue);
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 0, Color.blue);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(0, i, Color.blue);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 1, Color.yellow);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(1, i, Color.yellow);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 2, Color.blue);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(2, i, Color.blue);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 3, Color.yellow);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(3, i, Color.yellow);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 4, Color.blue);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(4, i, Color.blue);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 5, Color.yellow);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(5, i, Color.yellow);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 6, Color.blue);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(6, i, Color.blue);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 7, Color.yellow);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(7, i, Color.yellow);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 8, Color.blue);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(8, i, Color.blue);
         }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 9, Color.yellow);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 10, Color.blue);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 11, Color.yellow);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 12, Color.blue);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 13, Color.yellow);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 14, Color.blue);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 15, Color.yellow);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 16, Color.blue);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 17, Color.yellow);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 18, Color.blue);
-        }
-        for (int i = 0; i < grid.getHt(); i++) {
-            grid.setColor(i, 19, Color.yellow);
+        for (int i = 0; i < grid.getWd(); i++) {
+            grid.setColor(9, i, Color.yellow);
         }
 
         RussianFlag russianFlag = new RussianFlag();
