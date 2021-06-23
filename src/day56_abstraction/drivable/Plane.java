@@ -31,4 +31,8 @@ public class Plane extends Transportation implements SelfDrivable, Greeting {
         System.out.println("Thanks for flying with us");
     }
 
+    public void land() {
+        System.out.println("Plane has landing");
+    }
+
 }
