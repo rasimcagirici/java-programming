@@ -9,5 +9,8 @@ public class ShapesTest {
         Shapes circle = new Circle();
         circle.draw();
 
+        Shapes square = new Square();
+        square.draw();
+
     }
 }
