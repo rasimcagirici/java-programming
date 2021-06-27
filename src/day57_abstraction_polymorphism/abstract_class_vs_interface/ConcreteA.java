@@ -6,4 +6,19 @@ public class ConcreteA extends AbstractA implements InterfaceA, InterfaceB {
     public void abstractA() {
 
     }
+
+    @Override
+    public String helloN() {
+        return "Hello N";
+    }
+
+    public static void helloM() {
+        System.out.println("Hello M");
+    }
+
+    @Override
+    public void absMethodD(int num) {
+        System.out.println("Abstract method");
+
+    }
 }
