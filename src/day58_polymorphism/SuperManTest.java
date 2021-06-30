@@ -13,6 +13,13 @@ public class SuperManTest {
         spMan2.work("SDET");
         spMan2.getPaid();
 
+        SuperMan spMan3 = new SuperMan();
+        spMan3.getPaid();
+        spMan3.work("SDET");
+        spMan3.feedKid();
+
+
+
     }
 
 }
