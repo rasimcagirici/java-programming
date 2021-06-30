@@ -4,7 +4,7 @@ public class Square extends Shapes {
 
     @Override
     public void draw() {
-        System.out.println("\u1F7E5");
+        System.out.println("\u22A1");
     }
 
 }
