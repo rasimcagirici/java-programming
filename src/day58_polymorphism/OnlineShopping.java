@@ -4,6 +4,8 @@ public abstract class OnlineShopping {
 
     public abstract void buy();
     public abstract void sell();
-    public abstract void ship();
+    public void ship() {
+        System.out.println("Shipping the purchased items");
+    }
 
 }
