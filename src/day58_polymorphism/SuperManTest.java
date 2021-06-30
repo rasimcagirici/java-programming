@@ -12,6 +12,7 @@ public class SuperManTest {
         Worker spMan2 = new SuperMan();
         spMan2.work("SDET");
         spMan2.getPaid();
+
     }
 
 }
