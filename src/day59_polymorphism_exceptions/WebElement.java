@@ -4,6 +4,6 @@ public interface WebElement {
 
     void sendKeys(String txt);
     void click();
-    void getText();
+    String getText();
 
 }
