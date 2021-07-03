@@ -23,7 +23,8 @@ public class InputField implements WebElement {
 
     @Override
     public String getText() {
-        return null;
+        System.out.println("getting text of input field");
+        return "java";
     }
 
 }
