@@ -1,6 +1,6 @@
 package day57_abstraction_polymorphism.shapes;
 
-public class Square extends Shapes {
+public class Square extends Shape {
 
     @Override
     public void draw() {

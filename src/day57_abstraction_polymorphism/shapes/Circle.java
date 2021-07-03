@@ -1,6 +1,6 @@
 package day57_abstraction_polymorphism.shapes;
 
-public class Circle extends Shapes {
+public class Circle extends Shape {
 
     @Override
     public void draw() {

@@ -6,21 +6,21 @@ import java.util.List;
 public class ShapesTest {
     public static void main(String[] args) {
 
-        Shapes triangle = new Triangle();
+        Shape triangle = new Triangle();
         triangle.draw();
 
-        Shapes circle = new Circle();
+        Shape circle = new Circle();
         circle.draw();
 
-        Shapes square = new Square();
+        Shape square = new Square();
         square.draw();
 
-        List<Shapes> shapes = new ArrayList<>();
+        List<Shape> shapes = new ArrayList<>();
         shapes.add(new Triangle());
         shapes.add(new Circle());
         shapes.add(new Square());
 
-        for (Shapes each : shapes) {
+        for (Shape each : shapes) {
             each.draw();
         }
     }
