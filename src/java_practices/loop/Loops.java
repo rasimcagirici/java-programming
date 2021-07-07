@@ -1,4 +1,4 @@
-package java_practices;
+package java_practices.loop;
 
 public class Loops {
 
