@@ -22,6 +22,17 @@ public class MapsExamples {
         System.out.println(map);
         map.remove("Maxim");
 
+        System.out.println(map.containsValue("Daria"));
+        System.out.println(map.containsKey(100));
+
+        for (Integer key : map.keySet()) {
+            System.out.println(key + " - " + map.get(key));
+
+            if(map.get(key).equals("Kinga")) {
+                System.out.println(key);
+            }
+        }
+
     }
 
 }
