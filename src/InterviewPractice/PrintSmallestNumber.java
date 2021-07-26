@@ -22,7 +22,6 @@ public class PrintSmallestNumber {
                 }
             }
         }
-
         System.out.println(smallNumber);
         System.out.println(largestNumber);
     }
